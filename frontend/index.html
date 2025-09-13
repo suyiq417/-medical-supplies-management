@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>武汉市医疗物资管理平台</title>
+		<!-- 引入百度地图 GL SDK -->
+	</head>
+	<body>
+		<div id="app"></div>
+		<script type="module" src="/src/main.ts"></script>
+		<script
+			type="text/javascript"
+			src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=YMcz4P6El5FG7sOQXlV20FEOyF7RNKh0&callback=onBMapGLLoaded"
+		></script>
+		<!-- 引入行政区域边界数据 -->
+		<script
+			type="text/javascript"
+			src="https://mapopen.cdn.bcebos.com/github/BMapGLLib/DistrictExplorer/src/DistrictExplorer.min.js"
+		></script>
+	</body>
+</html>
